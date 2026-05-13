@@ -4,6 +4,8 @@
 // Your name
 // Last Modified: January 12, 2026
 
+//Lines 1-51 are unmodified starter code.
+
 #include <stdio.h>
 #include <stdint.h>
 #include <ti/devices/msp/msp.h>
@@ -327,7 +329,7 @@ Note soundShoot[1] = {{G, 1, 0.1f}};
 
 
 
-
+//Lines 333-353 are unmodified starter code, the Phrases 2D array is modified after the third row.
 typedef enum {English, Spanish, Portuguese, French} Language_t;
 Language_t myLanguage=English;
 Language_t sellang = English;
@@ -488,7 +490,7 @@ void TIMG12_IRQHandler(void){uint32_t pos,msg;
   }
 }
 
-
+//Lines 494-497 are unmodified starter code.
 uint8_t TExaS_LaunchPadLogicPB27PB26(void){
   return (0x80|((GPIOB->DOUT31_0>>26)&0x03));
 }
@@ -504,23 +506,7 @@ void GROUP0_IRQHandler(void) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 // THE ACTUAL GAME FUNCTION 
-
-
-
-
-
 //WIRINGS FOR BREADBOARD FROM PCB:
 //WIRE COLOR                PIN              DESTINATION       WHERE ON PCB
 //-----------------------------------------------------------------------------
