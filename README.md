@@ -1,5 +1,5 @@
 # ece-319h-finalproject
-Code for final project of ECE 319H. Developed from starter code written by Johnathan Valvano, et al.
+Code for final project of ECE 319H. Developed from starter code written by Jonathan Valvano, et al.
 - Game: Plants vs Zombies
 - Collaborated with William Mar.
 
